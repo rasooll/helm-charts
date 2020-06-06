@@ -3,7 +3,20 @@ entries:
   postfix:
   - apiVersion: v1
     appVersion: latest
-    created: "2020-06-06T20:50:20.601654255+04:30"
+    created: "2020-06-07T00:27:39.008691845+04:30"
+    description: A SMTP relay host for transactional based emails from within a cluster.
+    digest: db3435f2cbcc252fc10e57ffd40d0e2031bd6ddfe6cb77ce7235ff9d7d3c2596
+    icon: https://raw.githubusercontent.com/rasooll/postfix/master/logo.gif
+    maintainers:
+    - email: safari@rasooll.com
+      name: Rasool Safari
+    name: postfix
+    urls:
+    - https://rasooll.github.io/helm-charts/postfix-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v1
+    appVersion: latest
+    created: "2020-06-07T00:27:39.008223213+04:30"
     description: A SMTP relay host for transactional based emails from within a cluster.
     digest: df1b814e6dc02b90d8bfe836a0efb281eadf4b6803bed6f3e1faf2250f9e2cf8
     icon: https://raw.githubusercontent.com/rasooll/postfix/master/logo.gif
@@ -14,4 +27,4 @@ entries:
     urls:
     - https://rasooll.github.io/helm-charts/postfix-0.0.1.tgz
     version: 0.0.1
-generated: "2020-06-06T20:50:20.601088514+04:30"
+generated: "2020-06-07T00:27:39.007600855+04:30"
