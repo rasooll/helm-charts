@@ -3,7 +3,7 @@ entries:
   postfix:
   - apiVersion: v1
     appVersion: latest
-    created: "2020-06-17T18:20:08.153177314+04:30"
+    created: "2020-06-12T14:42:09.391411888+04:30"
     description: A SMTP relay host for transactional based emails from within a cluster.
     digest: 684afae4f5cad778f34ca0270f6ccfb6ab051e2b8b12cd9e689bdd38484efebe
     icon: https://raw.githubusercontent.com/rasooll/postfix/master/logo.png
