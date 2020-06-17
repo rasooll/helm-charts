@@ -3,7 +3,7 @@ entries:
   postfix:
   - apiVersion: v1
     appVersion: latest
-    created: "2020-06-12T14:42:09.391411888+04:30"
+    created: "2020-06-17T18:20:08.153177314+04:30"
     description: A SMTP relay host for transactional based emails from within a cluster.
     digest: 684afae4f5cad778f34ca0270f6ccfb6ab051e2b8b12cd9e689bdd38484efebe
     icon: https://raw.githubusercontent.com/rasooll/postfix/master/logo.png
@@ -14,4 +14,19 @@ entries:
     urls:
     - https://rasooll.github.io/helm-charts/postfix-0.0.1.tgz
     version: 0.0.1
-generated: "2020-06-12T14:42:09.390602857+04:30"
+  stunnel:
+  - apiVersion: v2
+    appVersion: 5.56-r1
+    created: "2020-06-17T18:20:08.153527833+04:30"
+    description: A Helm chart for use stunnel client in Kubernetes
+    digest: c59d614266343e9cef9d6f34038aae85110b291cc4b8f6744aaab5db03152a1f
+    icon: https://raw.githubusercontent.com/rasooll/stunnel/master/stunnel/logo.png
+    maintainers:
+    - email: safari@rasooll.com
+      name: Rasool Safari
+    name: stunnel
+    type: application
+    urls:
+    - https://rasooll.github.io/helm-charts/stunnel-0.0.1.tgz
+    version: 0.0.1
+generated: "2020-06-17T18:20:08.151927776+04:30"
